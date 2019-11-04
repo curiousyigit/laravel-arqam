@@ -1,6 +1,6 @@
 <?php
 
-namespace hopefeda\LaravelArqam\Providers;
+namespace hopefeda\LaravelArqam;
 
 use Illuminate\Support\ServiceProvider;
 
