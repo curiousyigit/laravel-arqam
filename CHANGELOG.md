@@ -1,0 +1,1 @@
+added composer.json to submit to packagist
