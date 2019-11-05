@@ -43,7 +43,10 @@ This generates a config file at config/arqam.php.
 This package is very easy to use. Once installed, you can start converting numbers to words in controllers, views, middlewares, models, etc.
 
 **IMPORTANT**
-The words function expects the number as a **string**. This is done because php has problems dealing with huge numbers. So convert your numbers to **non scientific notation** strings. Decimals are optional
+The words function expects the number as a **string**. This is done because php has problems dealing with huge numbers. So convert your numbers to **non scientific notation** strings. Decimals are optional. **DO NOT** use numbers with thousand separators. The supported decimal separator is a dot ".". Not applying these precautions may cause unwanted functionality
+
+## Limitation
+Currently, the maximum supported number is (trillions) 999999999999999.999999999. At the time of coding I didn't really see a need in bigger number. I may change it in the future though
 
 **A few examples:**  
 ```
@@ -286,3 +289,7 @@ You can configure various properties from the `config/laravel-arqam.php` file.
 ```
 ## Contribute  
 I encourage you to contribute to this package to improve it and make it better. Even if you don't feel comfortable with coding or submitting a pull-request (PR), you can still support it by submitting issues with bugs or requesting new features, or simply helping discuss existing issues to give us your opinion and shape the progress of this package. Best regards!
+
+## Planned (Help if you can!)
+- Add thousands separator support
+- Add different decimal separator support
