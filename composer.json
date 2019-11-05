@@ -1,7 +1,13 @@
 {
     "name": "hopefeda/laravel-arqam",
-    "description": "Arqam is a laravel packages that converts numbers to arabic words",
     "type": "library",
+    "description": "laravel-arqam is a laravel packages that converts numbers to arabic words",
+    "keywords": ["laravel", "numbers", "arabic numbers", "laravel-arqam", "language", "localization", "arabic"],
+    "homepage": "https://github.com/hopefeda/laravel-arqam",
+    "support": {
+        "issues": "https://github.com/hopefeda/laravel-arqam/issues",
+        "source": "https://github.com/hopefeda/laravel-arqam"
+    },
     "require": {
         "illuminate/support": "^5.8",
         "php": ">=7.1.3"
@@ -10,6 +16,16 @@
         "psr-4": {
             "hopefeda\\LaravelArqam\\": "src"
         }
+    },
+    "extra": {
+       "laravel": {
+           "providers": [
+               "hopefeda\\LaravelArqam\\ArqamServiceProvider"
+            ],
+            "aliases": {
+                "Arqam": "hopefeda\\LaravelArqam\\ArqamFacade"
+            }
+       } 
     },
     "license": "MIT",
     "authors": [
