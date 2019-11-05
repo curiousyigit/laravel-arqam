@@ -20,10 +20,10 @@
     "extra": {
        "laravel": {
            "providers": [
-               "hopefeda\\LaravelArqam\\ArqamServiceProvider"
+               "hopefeda\\LaravelArqam\\ServiceProvider"
             ],
             "aliases": {
-                "Arqam": "hopefeda\\LaravelArqam\\ArqamFacade"
+                "Arqam": "hopefeda\\LaravelArqam\\Facade"
             }
        } 
     },

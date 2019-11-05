@@ -8,3 +8,6 @@
 
 ## 1.0.1 (2019-11-05)
 - Update readme
+
+## 1.0.2 (2019-11-05)
+- Fixed composer.json errors
