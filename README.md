@@ -6,7 +6,7 @@ Installation is straightforward, setup is similar to every other Laravel Package
 
 **1. Install via composer**
 ```
-composer require hopefeda/laravel-arqam
+composer require curiousyigit/laravel-arqam
 ```
 
 **2. Define the Service Provider and alias**  
@@ -17,7 +17,7 @@ If you are using Laravel 5.0 - 5.4 then you need to add a provider and alias. In
 'providers' => [
 	//  other providers
 
-	hopefeda\LaravelArqam\ServiceProvider::class,
+	curiousyigit\LaravelArqam\ServiceProvider::class,
 ];
 ```
 
@@ -26,7 +26,7 @@ Then we want to define an alias in the same `config/app.php` file.
 'aliases' => [
 	// other aliases
 
-	'laravel-arqam' => hopefeda\LaravelArqam\Facade::class,
+	'laravel-arqam' => curiousyigit\LaravelArqam\Facade::class,
 ];
 ```
 
@@ -35,7 +35,7 @@ The config file allows you to override default settings of this package to meet 
 
 To generate a config file type this command into your terminal:
 ```
-php artisan vendor:publish  --provider=hopefeda\LaravelArqam\ServiceProvider
+php artisan vendor:publish  --provider=curiousyigit\LaravelArqam\ServiceProvider
 ```
 This generates a config file at config/arqam.php.
 

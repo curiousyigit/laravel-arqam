@@ -1,6 +1,6 @@
 <?php
 
-namespace hopefeda\LaravelArqam;
+namespace curiousyigit\LaravelArqam;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
@@ -14,7 +14,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/config/arqam.php', 'arqam');
         $this->app->bind('Arqam', function($app)
         {
-            return $this->app->make('hopefeda\LaravelArqam\Arqam');
+            return $this->app->make('curiousyigit\LaravelArqam\Arqam');
         });
     }
 }

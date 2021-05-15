@@ -1,6 +1,6 @@
 <?php
 
-namespace hopefeda\LaravelArqam;
+namespace curiousyigit\LaravelArqam;
 
 class Arqam
 {

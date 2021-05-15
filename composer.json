@@ -1,12 +1,12 @@
 {
-    "name": "hopefeda/laravel-arqam",
+    "name": "curiousyigit/laravel-arqam",
     "type": "library",
     "description": "laravel-arqam is a laravel packages that converts numbers to arabic words",
     "keywords": ["laravel", "numbers", "arabic numbers", "laravel-arqam", "language", "localization", "arabic"],
-    "homepage": "https://github.com/hopefeda/laravel-arqam",
+    "homepage": "https://github.com/curiousyigit/laravel-arqam",
     "support": {
-        "issues": "https://github.com/hopefeda/laravel-arqam/issues",
-        "source": "https://github.com/hopefeda/laravel-arqam"
+        "issues": "https://github.com/curiousyigit/laravel-arqam/issues",
+        "source": "https://github.com/curiousyigit/laravel-arqam"
     },
     "require": {
         "illuminate/support": "^5.8",
@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "hopefeda\\LaravelArqam\\": "src"
+            "curiousyigit\\LaravelArqam\\": "src"
         }
     },
     "extra": {
        "laravel": {
            "providers": [
-               "hopefeda\\LaravelArqam\\ServiceProvider"
+               "curiousyigit\\LaravelArqam\\ServiceProvider"
             ],
             "aliases": {
-                "Arqam": "hopefeda\\LaravelArqam\\Facade"
+                "Arqam": "curiousyigit\\LaravelArqam\\Facade"
             }
        } 
     },
