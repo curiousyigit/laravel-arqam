@@ -1,3 +1,6 @@
+# ABANDONED
+This project is abondened and no longer maintained.
+
 # laravel-arqam 
 laravel-arqam helps you convert numbers to arabic words
 
